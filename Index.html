@@ -1,0 +1,43 @@
+Package task_one;
+
+
+//Scanner import
+Import java.util.scanner;
+
+Public class question one{
+
+  //Main method 
+  Public static void main(string||args){
+
+  //Scanner object
+  Scanner input = new scanner(system.in);
+
+  //My variable
+  String surname;
+  String oddeven;
+  Int age;
+  Int numcharacters;
+ 
+  System.out.println("Enter your surname:");
+  Surname = input.nextline()://input name
+
+  System.out.println("Enter your age:");
+  age = input.nextline()://input age
+
+  //Finding number of characters in surname
+  numcharacters = surname.length();
+  //determine if even or odd
+  if(age % 2 == 0){
+    //age is even
+    Oddeven = "even";
+  } else {
+    //age is odd
+    Oddeven = "odd";
+  }
+  //output
+  System.out.println("your surname has:"+
+numcharacters + "characters");
+  System.out.println("your age is an" + oddeven + "
+number.");
+  }
+}
